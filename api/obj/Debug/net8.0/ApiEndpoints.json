@@ -1,0 +1,1131 @@
+[
+  {
+    "ContainingType": "HealthInsuranceApi.Controllers.AdminController",
+    "Method": "CreateAgent",
+    "RelativePath": "api/admin/agents",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "HealthInsuranceApi.DTOs.Auth.AgentRegistration",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthInsuranceApi.Controllers.AdminController",
+    "Method": "GetAllAgents",
+    "RelativePath": "api/admin/agents",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthInsuranceApi.Controllers.AdminController",
+    "Method": "UpdateAgent",
+    "RelativePath": "api/admin/agents/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "HealthInsuranceApi.DTOs.Agent.AgentUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthInsuranceApi.Controllers.AdminController",
+    "Method": "RegisterClaimOfficer",
+    "RelativePath": "api/admin/claimofficer",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "HealthInsuranceApi.DTOs.Auth.RegisterClaimOfficerDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthInsuranceApi.Controllers.AdminController",
+    "Method": "GetAllCliaimsOfficer",
+    "RelativePath": "api/admin/claimofficer",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthInsuranceApi.Controllers.AdminController",
+    "Method": "UpdateCliaimsOfficer",
+    "RelativePath": "api/admin/claimofficer/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "HealthInsuranceApi.DTOs.ClaimsOfficer.ClaimsOfficerUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthInsuranceApi.Controllers.AdminController",
+    "Method": "CreateHospitalProvider",
+    "RelativePath": "api/admin/hospital-providers",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "HealthInsuranceApi.DTOs.Auth.HospitalRegistration",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthInsuranceApi.Controllers.AdminController",
+    "Method": "GetAllHospitalProviders",
+    "RelativePath": "api/admin/hospital-providers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthInsuranceApi.Controllers.AdminController",
+    "Method": "UpdateHospitalProvider",
+    "RelativePath": "api/admin/hospital-providers/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "HealthInsuranceApi.DTOs.HospitalProvider.HospitalProviderUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthInsuranceApi.Controllers.AdminController",
+    "Method": "ToggleActive",
+    "RelativePath": "api/admin/hospital-providers/{id}/active",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "isActive",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthInsuranceApi.Controllers.AdminController",
+    "Method": "ToggleNetwork",
+    "RelativePath": "api/admin/hospital-providers/{id}/network",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "isNetwork",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthInsuranceApi.Controllers.AdminController",
+    "Method": "CreatePlan",
+    "RelativePath": "api/admin/plans",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "HealthInsuranceApi.DTOs.InsurancePlan.InsurancePlanCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthInsuranceApi.Controllers.AdminController",
+    "Method": "GetPlans",
+    "RelativePath": "api/admin/plans",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthInsuranceApi.Controllers.AdminController",
+    "Method": "UpdatePlan",
+    "RelativePath": "api/admin/plans/{planId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "planId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "HealthInsuranceApi.DTOs.InsurancePlan.InsurancePlanUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthInsuranceApi.Controllers.AdminController",
+    "Method": "DisablePlan",
+    "RelativePath": "api/admin/plans/{planId}/disable",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "planId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthInsuranceApi.Controllers.AdminController",
+    "Method": "TogglePlanStatus",
+    "RelativePath": "api/admin/plans/{planId}/status",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "planId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "isActive",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthInsuranceApi.Controllers.AdminController",
+    "Method": "GetAllPolicies",
+    "RelativePath": "api/admin/policies",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthInsuranceApi.Controllers.AdminController",
+    "Method": "SuspendPolicy",
+    "RelativePath": "api/admin/policies/{policyId}/suspend",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "policyId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthInsuranceApi.Controllers.AdminController",
+    "Method": "DashboardSummary",
+    "RelativePath": "api/admin/reports/dashboard",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthInsuranceApi.Controllers.AdminController",
+    "Method": "HospitalWiseClaimStats",
+    "RelativePath": "api/admin/reports/hospital-claims",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthInsuranceApi.Controllers.AdminController",
+    "Method": "GetAllUsers",
+    "RelativePath": "api/admin/users",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthInsuranceApi.Controllers.AdminController",
+    "Method": "CreateUser",
+    "RelativePath": "api/admin/users",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "HealthInsuranceApi.DTOs.Admin.AdminUserCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthInsuranceApi.Controllers.AdminController",
+    "Method": "UpdateUser",
+    "RelativePath": "api/admin/users/{userId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "HealthInsuranceApi.DTOs.Admin.AdminUserUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthInsuranceApi.Controllers.AdminController",
+    "Method": "DeleteUser",
+    "RelativePath": "api/admin/users/{userId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthInsuranceApi.Controllers.AdminController",
+    "Method": "ApproveUser",
+    "RelativePath": "api/admin/users/{userId}/approve",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthInsuranceApi.Controllers.AdminController",
+    "Method": "AssignRoles",
+    "RelativePath": "api/admin/users/{userId}/roles",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "roles",
+        "Type": "System.Collections.Generic.List\u00601[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthInsuranceApi.Controllers.AgentController",
+    "Method": "CreatePolicy",
+    "RelativePath": "api/Agent/create-policy",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "HealthInsuranceApi.DTOs.Policy.PolicyCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthInsuranceApi.Controllers.AgentController",
+    "Method": "EnrollCustomer",
+    "RelativePath": "api/Agent/enroll-customer",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "HealthInsuranceApi.DTOs.Customer.CustomerCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthInsuranceApi.Controllers.AgentController",
+    "Method": "GetPolicies",
+    "RelativePath": "api/Agent/policies",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthInsuranceApi.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "HealthInsuranceApi.DTOs.Auth.LoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthInsuranceApi.Controllers.AuthController",
+    "Method": "Register",
+    "RelativePath": "api/Auth/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "custregist",
+        "Type": "HealthInsuranceApi.DTOs.Auth.CustomerRegistration",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthInsuranceApi.Controllers.ClaimController",
+    "Method": "GetAllClaims",
+    "RelativePath": "api/Claim",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthInsuranceApi.Controllers.ClaimController",
+    "Method": "GetClaimById",
+    "RelativePath": "api/Claim/{claimId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "claimId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthInsuranceApi.Controllers.ClaimController",
+    "Method": "ClaimApproveReject",
+    "RelativePath": "api/Claim/Claim-Approve-Reject",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "HealthInsuranceApi.DTOs.Claim.ClaimCreateDto",
+        "IsRequired": true
+      },
+      {
+        "Name": "claimId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "status",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthInsuranceApi.Controllers.ClaimController",
+    "Method": "GetClaimsByStatusAmountandHospital",
+    "RelativePath": "api/Claim/ClaimsByStatusAmountandHospitalReport",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthInsuranceApi.Controllers.ClaimController",
+    "Method": "GetTreatment",
+    "RelativePath": "api/Claim/hospital-treatmnt",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "claimId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthInsuranceApi.Controllers.ClaimController",
+    "Method": "SubmitTreatment",
+    "RelativePath": "api/Claim/hospital-treatmnt",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "claimId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "treatmentHistory",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthInsuranceApi.Controllers.ClaimController",
+    "Method": "GetMyClaims",
+    "RelativePath": "api/Claim/my-claims",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthInsuranceApi.Controllers.ClaimController",
+    "Method": "SubmitClaim",
+    "RelativePath": "api/Claim/my-claims",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "HealthInsuranceApi.DTOs.Claim.ClaimCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthInsuranceApi.Controllers.ClaimsOfficerController",
+    "Method": "ApproveClaim",
+    "RelativePath": "api/ClaimsOfficer/{claimId}/approve",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "claimId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "remarks",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthInsuranceApi.Controllers.ClaimsOfficerController",
+    "Method": "MarkAsPaid",
+    "RelativePath": "api/ClaimsOfficer/{claimId}/mark-paid",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "claimId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthInsuranceApi.Controllers.ClaimsOfficerController",
+    "Method": "MoveToReview",
+    "RelativePath": "api/ClaimsOfficer/{claimId}/move-to-review",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "claimId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthInsuranceApi.Controllers.ClaimsOfficerController",
+    "Method": "RejectClaim",
+    "RelativePath": "api/ClaimsOfficer/{claimId}/reject",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "claimId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "remarks",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthInsuranceApi.Controllers.ClaimsOfficerController",
+    "Method": "GetClaimsforClaimsOfficer",
+    "RelativePath": "api/ClaimsOfficer/ClaimsforClaimsOfficer",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthInsuranceApi.Controllers.ClaimsOfficerController",
+    "Method": "GetClaimsForReview",
+    "RelativePath": "api/ClaimsOfficer/review-queue",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthInsuranceApi.Controllers.CustomerController",
+    "Method": "GetMyClaims",
+    "RelativePath": "api/Customer/claims",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthInsuranceApi.Controllers.CustomerController",
+    "Method": "GetMyClaimById",
+    "RelativePath": "api/Customer/claims/{claimId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "claimId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthInsuranceApi.Controllers.CustomerController",
+    "Method": "GetAllHospitalProviders",
+    "RelativePath": "api/Customer/hospital-providers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthInsuranceApi.Controllers.CustomerController",
+    "Method": "PayPremium",
+    "RelativePath": "api/Customer/pay-premium",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "HealthInsuranceApi.DTOs.Payment.PaymentCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthInsuranceApi.Controllers.CustomerController",
+    "Method": "GetAvailablePlans",
+    "RelativePath": "api/Customer/plans",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthInsuranceApi.Controllers.CustomerController",
+    "Method": "GetMyPolicies",
+    "RelativePath": "api/Customer/policies",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthInsuranceApi.Controllers.CustomerController",
+    "Method": "CreateCustomerProfile",
+    "RelativePath": "api/Customer/profile",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "HealthInsuranceApi.DTOs.Customer.CustomerCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthInsuranceApi.Controllers.CustomerController",
+    "Method": "SubmitClaim",
+    "RelativePath": "api/Customer/submit-claim",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "HealthInsuranceApi.DTOs.Claim.ClaimCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthInsuranceApi.Controllers.HospitalProviderController",
+    "Method": "GetMyClaims",
+    "RelativePath": "api/HospitalProvider/claims",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthInsuranceApi.Controllers.HospitalProviderController",
+    "Method": "GetClaimById",
+    "RelativePath": "api/HospitalProvider/claims/{claimId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "claimId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthInsuranceApi.Controllers.HospitalProviderController",
+    "Method": "SubmitClaim",
+    "RelativePath": "api/HospitalProvider/submit-claim",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "HealthInsuranceApi.DTOs.Claim.ClaimCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InsurancePlanController",
+    "Method": "Create",
+    "RelativePath": "api/InsurancePlan",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "HealthInsuranceApi.DTOs.InsurancePlan.InsurancePlanCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InsurancePlanController",
+    "Method": "GetAll",
+    "RelativePath": "api/InsurancePlan",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InsurancePlanController",
+    "Method": "Update",
+    "RelativePath": "api/InsurancePlan/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "HealthInsuranceApi.DTOs.InsurancePlan.InsurancePlanUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InsurancePlanController",
+    "Method": "Disable",
+    "RelativePath": "api/InsurancePlan/{id}/disable",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthInsuranceApi.Controllers.NotificationController",
+    "Method": "GetMyNotifications",
+    "RelativePath": "api/Notification",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthInsuranceApi.Controllers.NotificationController",
+    "Method": "MarkAsRead",
+    "RelativePath": "api/Notification/{notificationId}/read",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "notificationId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthInsuranceApi.Controllers.PaymentController",
+    "Method": "MakeClaimPayout",
+    "RelativePath": "api/Payment/claim-payout/{claimId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "claimId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthInsuranceApi.Controllers.PaymentController",
+    "Method": "PayPremium",
+    "RelativePath": "api/Payment/pay-premium",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "HealthInsuranceApi.DTOs.Payment.PaymentCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthInsuranceApi.Controllers.PaymentController",
+    "Method": "GetPaymentsByPolicy",
+    "RelativePath": "api/Payment/policy/{policyId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "policyId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthInsuranceApi.Controllers.PolicyController",
+    "Method": "GetAllPolicies",
+    "RelativePath": "api/Policy",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthInsuranceApi.Controllers.PolicyController",
+    "Method": "RenewPolicy",
+    "RelativePath": "api/Policy/{policyId}/renew",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "policyId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthInsuranceApi.Controllers.PolicyController",
+    "Method": "SuspendPolicy",
+    "RelativePath": "api/Policy/{policyId}/suspend",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "policyId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthInsuranceApi.Controllers.PolicyController",
+    "Method": "EnrollPolicy",
+    "RelativePath": "api/Policy/enroll",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "HealthInsuranceApi.DTOs.Policy.PolicyCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthInsuranceApi.Controllers.PolicyController",
+    "Method": "GetPolicyByID",
+    "RelativePath": "api/Policy/PolicyById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "policyId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthInsuranceApi.Controllers.PolicyController",
+    "Method": "PolicyTypeStatusReportAsync",
+    "RelativePath": "api/Policy/PolicyTypeStatusReport",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthInsuranceApi.Controllers.ReportsController",
+    "Method": "GetClaimsByStatusAmountHospital",
+    "RelativePath": "api/Reports/claims-by-status-amount-hospital",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthInsuranceApi.Controllers.ReportsController",
+    "Method": "GetHighValueClaims",
+    "RelativePath": "api/Reports/high-value-claims",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "threshold",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthInsuranceApi.Controllers.ReportsController",
+    "Method": "GetPlanWisePolicyClaimCount",
+    "RelativePath": "api/Reports/Plan-Wise-PolicyClaimCount",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthInsuranceApi.Controllers.ReportsController",
+    "Method": "GetPoliciesByTypeAndStatus",
+    "RelativePath": "api/Reports/policies-by-type-status",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HealthInsuranceApi.Controllers.ReportsController",
+    "Method": "GetPremiumVsPayout",
+    "RelativePath": "api/Reports/premium-vs-payout",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

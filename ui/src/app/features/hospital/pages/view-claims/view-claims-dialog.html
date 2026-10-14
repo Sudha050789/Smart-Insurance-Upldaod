@@ -1,0 +1,44 @@
+<h2 mat-dialog-title class="dialog-title">
+  Treatment History Submission
+</h2>
+
+<mat-dialog-content class="dialog-content">
+
+  <p class="dialog-subtitle">
+    Please provide detailed treatment information related to the submitted claim.
+  </p>
+
+  <form [formGroup]="planForm" class="plan-form">
+
+    <mat-form-field appearance="outline" class="full-width">
+      <mat-label>Treatment History</mat-label>
+      <textarea
+        matInput
+        formControlName="treatmentHistory"
+        rows="5"
+        placeholder="Enter diagnosis, procedures performed, and relevant notes">
+      </textarea>
+
+      <mat-error *ngIf="planForm.get('treatmentHistory')?.hasError('required')">
+        Treatment History is required
+      </mat-error>
+    </mat-form-field>
+
+  </form>
+
+</mat-dialog-content>
+
+<mat-dialog-actions align="end" class="dialog-actions">
+  <button mat-stroked-button color="primary" (click)="cancel()">
+    Cancel
+  </button>
+
+  <button
+    mat-raised-button
+    color="primary"
+    class="primary-action"
+    (click)="save()"
+    [disabled]="planForm.invalid">
+    Submit Treatment
+  </button>
+</mat-dialog-actions>

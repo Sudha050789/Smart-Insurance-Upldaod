@@ -1,0 +1,47 @@
+/* DIALOG TITLE */
+.dialog-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1f2937;
+  border-bottom: 1px solid #e5e7eb;
+  padding-bottom: 12px;
+}
+
+/* CONTENT */
+.dialog-content {
+  padding-top: 16px;
+}
+
+/* SUBTITLE */
+.dialog-subtitle {
+  font-size: 14px;
+  color: #6b7280;
+  margin-bottom: 16px;
+}
+
+/* FORM */
+.plan-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.full-width {
+  width: 100%;
+}
+
+/* TEXTAREA */
+mat-form-field textarea {
+  resize: vertical;
+}
+
+/* ACTIONS */
+.dialog-actions {
+  padding-top: 12px;
+  border-top: 1px solid #e5e7eb;
+  gap: 8px;
+}
+
+/* PRIMARY BUTTON */
+.primary-action {
+  min-width: 160px;
+}
